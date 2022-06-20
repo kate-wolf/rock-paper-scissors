@@ -2,17 +2,33 @@
 
 body {
   display: flex;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
   background-color: black;
   font-family: "Chivo", sans-serif;
+  gap: 24px
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   gap: 5em;
+}
+
+div, p {
+  margin: 0;
+  padding: 0;
+}
+#results {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Chivo", sans-serif;
+  font-size: 48px;
 }
 
 button {
